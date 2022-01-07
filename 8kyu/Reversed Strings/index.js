@@ -1,6 +1,3 @@
 function solution(str) {
-    for (var reversedStr = "", i = str.length - 1; i >= 0; i--) {
-        reversedStr += str[i];
-    }
-    return reversedStr;
+    return str.split('').reverse().join('')
 }
